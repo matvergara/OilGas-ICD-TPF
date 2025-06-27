@@ -1,9 +1,5 @@
-#### Oil/Gas Field Prediction Dataset
-
-#### PREGUNTA: ¿Qué características geológicas definen un buen reservorio de hidrocarburos?
-
-#### Instalar si no tenemos
-install.packages(c("rnaturalearth", "rnaturalearthdata"))   # Grafico de mapas
+#### Instalación de librerias utilizadas
+install.packages(c("rnaturalearth", "rnaturalearthdata", "tidyverse", "ggplot2", "sf"))   # Grafico de mapas
 
 #### Cargamos las librerias necesarias
 library(tidyverse)    # Limpieza de datos y gráficos
