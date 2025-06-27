@@ -1,4 +1,4 @@
-# 🛢️ Predicción de Calidad de Reservorios a partir de Variables Geológicas
+# 🛢️ De la roca al hidrocarburo: ¿dónde hacer un pozo?
 
 Análisis exploratorio y modelado predictivo sobre datos de yacimientos hidrocarburíferos de todo el mundo bajo el marco del **Trabajo Práctico Final** para la materia Introducción a la Ciencia de Datos de la UNSAM.
 
