@@ -1,0 +1,1 @@
+install.packages(c("rnaturalearth", "rnaturalearthdata", "tidyverse", "ggplot2", "sf"))
