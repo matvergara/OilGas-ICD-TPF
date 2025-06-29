@@ -1,16 +1,4 @@
 # ============================================================
-# CARGA DE LIBRERÍAS NECESARIAS
-# ============================================================
-library(tidyverse)
-library(ggplot2)
-library(sf)
-library(rnaturalearth)
-library(rnaturalearthdata)
-library(stringr)
-library(modelr)
-library(ggh4x)
-
-# ============================================================
 # IMPORTACION DE DATASETS
 # ============================================================
 df_train <- read_csv("data/train_oil.csv")
@@ -21,7 +9,7 @@ df <- full_join(df_train, df_test)
 # LIMPIEZA Y TRANSFORMACIÓN INICIAL DE VARIABLES
 # ============================================================
 
-# 📘 1. Renombrado de columnas
+# 1. Renombrado de columnas
 # Se traducen los nombres originales del dataset a español y se estandariza el formato.
 df <- df %>% rename(
   campo                 = `Field name`,
