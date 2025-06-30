@@ -62,7 +62,6 @@ Fuente: https://www.kaggle.com/competitions/oilgas-field-prediction/data
 
 5. **Evaluación del modelo**: se validaron supuestos del modelo y se analizaron los residuos para asegurar un buen ajuste.
 
-📝 Los detalles técnicos de cada etapa se encuentran documentados en el siguiente notebook: [Informe Metodológico](https://matvergara.github.io/OilGas-ICD-TPF/informe.html) (en construcción)
 
 ## 🧠 Conclusiones y Aprendizajes
 - Los datos geológicos previos a la perforación (litología, edad, espesor, permeabilidad) permiten anticipar la calidad del reservorio y deben integrarse en las decisiones de inversión. Es preciso entonces considerar reservorios:
