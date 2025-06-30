@@ -1,17 +1,10 @@
 # 🛢️ De la roca al hidrocarburo: ¿dónde hacer un pozo?
 
-Análisis exploratorio y modelado predictivo sobre datos de yacimientos hidrocarburíferos de todo el mundo bajo el marco del **Trabajo Práctico Final** para la materia Introducción a la Ciencia de Datos de la UNSAM.
+Análisis exploratorio y modelado predictivo sobre datos de yacimientos hidrocarburíferos de todo el mundo bajo el marco del **Trabajo Práctico Final** para la materia Introducción a la Ciencia de Datos (LCD-UNSAM).
 
 ---
 
-### 🧑‍💻 Autores
-
-- **Bruno Inguanzo** · [@BrunoInz](https://github.com/BrunoInz)
-- **Emanuel Pinasco** · [@manupinasco](https://github.com/manupinasco)
-- **Javier Valdez** · [@javivaldez49](https://github.com/javivaldez49)
-- **Matías Vergara** · [@matvergara](https://github.com/matvergara)
-
-## 📚 Contexto del Proyecto
+## 📚 Contexto
 
 Para el año 2025, la demanda global de hidrocarburos sigue en aumento. Sin embargo, la producción muestra una tendencia decreciente debido al cierre de plataformas, la baja productividad y otros factores.
 Frente a este escenario, una posible estrategia para reducir el desequilibrio entre oferta y demanda es optimizar la fase de _upstream_, identificando y explotando aquellos pozos con **mayor calidad de reservorio**.
@@ -20,16 +13,55 @@ Frente a este escenario, una posible estrategia para reducir el desequilibrio en
 La calidad de un reservorio está determinada, en gran parte, por la porosidad de sus rocas, es decir, por la proporción de espacios vacíos donde puede almacenarse el hidrocarburo.
 El problema es que medir la porosidad requiere perforaciones y estudios de subsuelo que representan cerca del **40% del costo total de exploración**. Esto vuelve ineficiente el proceso si el objetivo es mejorar el modelo de negocio y revertir el desequilibrio entre oferta y demanda, ya que se incurre en altos costos sin certezas previas.
 
-## 🔧 Solución propuesta
-Proponemos analizar si existen **variables geológicas que permitan predecir la porosidad de un reservorio** sin necesidad de perforación. En caso afirmativo, se podrá identificar configuraciones geológicas asociadas a reservorios de mayor o menor calidad, optimizando así la toma de decisiones en etapas tempranas del proceso exploratorio.
+## 💡 Solución propuesta
+Analizar si existen **variables geológicas que permitan predecir la porosidad de un reservorio** sin necesidad de perforación. En caso afirmativo, identificar configuraciones geológicas asociadas a reservorios de mayor o menor calidad, a partir de un modelo de regresión lineal, optimizando así la toma de decisiones en etapas tempranas del proceso exploratorio.
+
+## 📊 Resultados principales
+
+## 📁 Estructura del proyecto
+```
+OilGas-ICD-TPF
+├── LICENSE
+├── README.md
+├── data
+│   ├── oil_test.csv
+│   └── train_oil.csv
+├── output
+├── script.R
+└── slides
+    └── presentacion_TPF.pdf
+```
+
+## 📩 Datos utilizados
+Trabajamos con un dataset de *Kaggle* que contiene reservorios de hidrocarburos de todo el mundo junto a características geográficas, geologicas y estructurales de los mismos.
+Fuente: https://www.kaggle.com/competitions/oilgas-field-prediction/data
 
 ## 🛠️ Tecnologías Utilizadas
 - **R 4.4.2**
-- **RStudio**: IDE para desarrollo de código.
-- **Tidyverse**: Limpieza, transformación y análisis de datos.
-- **ggplot2**: Generación de gráficos exploratorios y visualizaciones personalizadas.
-- **dplyr & stringr**: Procesamiento de datos y manipulación de texto.
-- **sf, rnaturalearth y rnaturalearthdata**: Representación geoespacial de los yacimientos.
-- **modelr**: Generación de modelos de regresión lineal.
+- **RStudio**
+- **Tidyverse** - Limpieza, transformación y análisis de datos.
+- **ggplot2** - Generación de gráficos exploratorios y visualizaciones personalizadas.
+- **dplyr & stringr** - Procesamiento de datos y manipulación de texto.
+- **sf, rnaturalearth y rnaturalearthdata** - Representación geoespacial de los yacimientos.
+- **modelr** - Generación de modelos de regresión lineal.
 
-## Conclusiones y Aprendizajes
+## 📈 Metodología
+1. **Preparación de datos**: se unificaron datasets, se tradujeron variables al español y se realizó una limpieza intensiva para garantizar la coherencia y completitud de los registros.
+
+2. **Transformaciones y reagrupamientos**: se agruparon categorías geológicas, se convirtieron unidades al sistema métrico y se aplicaron transformaciones estadísticas para mejorar la modelización.
+
+3. **Análisis exploratorio**: se utilizaron visualizaciones para identificar patrones entre la porosidad y distintas variables geológicas (como litología, profundidad, espesor, etc.).
+
+4. **Modelado predictivo**: se construyeron modelos de regresión lineal múltiple, evaluando progresivamente la inclusión de variables e interacciones relevantes.
+
+5. **Evaluación del modelo**: se validaron supuestos del modelo y se analizaron los residuos para asegurar un buen ajuste.
+
+## 🧠 Conclusiones y Aprendizajes
+
+## 🧑‍💻 Autores | Contacto
+Estamos abiertos a recibir ideas, sugerencias o comentarios! Podes contactarnos por GitHub o LinkedIn.
+- **Bruno Inguanzo** · [GitHub](https://github.com/BrunoInz) · [LinkedIn](https://www.linkedin.com/in/bruno-inguanzo-974021212/)
+- **Emanuel Pinasco** · [GitHub](https://github.com/manupinasco) · [LinkedIn](https://www.linkedin.com/in/emanuel-pinasco/) 
+- **Javier Valdez** · [GitHub](https://github.com/javivaldez49) · [LinkedIn](https://www.linkedin.com/in/javiervaldez2/) 
+- **Matías Vergara** · [GitHub](https://github.com/matvergara) · [LinkedIn](https://www.linkedin.com/in/matiasvergaravicencio/)
+
