@@ -33,7 +33,6 @@ OilGas-ICD-TPF/
 ├── slides/
 │   └── presentacion_TPF.pdf    # Apoyo visual para exposición en clase
 ├── script.R                    # Código fuente del análisis realizado
-├── informe.Rmd                 # Informe detallado del análisis realizado
 ├── README.md
 └── LICENSE  
 ```
