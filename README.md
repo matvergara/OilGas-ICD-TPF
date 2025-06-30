@@ -70,7 +70,6 @@ Fuente: https://www.kaggle.com/competitions/oilgas-field-prediction/data
     - formados en <b>*períodos geológicos más recientes*</b>, en lugar de aquellos más antiguos.
 
 - Incorporar más variables puede complejizar la interpretación sin mejorar sustancialmente la explicación del fenómeno.
-- A futuro se podría mejorar el **balance de categorías**, aumentando el numero de observaciones de alguna
 - El desequilibrio en algunas categorías limitó el análisis de ciertos efectos; trabajar con datos más balanceados podría mejorar la robustez de los resultados.
 - Incluir nuevas variables como presión, temperatura o facies podría capturar aspectos clave no observados en este análisis
 
