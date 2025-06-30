@@ -1,4 +1,11 @@
 # ============================================================
+# Trabajo Practico Final - Introducción a la Ciencia de Datos - 2C 2025
+# Predicción de calidad de reservorios de hidrocarburos a partir de variables geológicas.
+# Código fuente del análisis realizado
+# ============================================================
+
+
+# ============================================================
 # INSTALACIÓN DE PAQUETES NECESARIOS
 # ============================================================
 install.packages(c("rnaturalearth", "rnaturalearthdata", "tidyverse", "ggplot2", "sf"))

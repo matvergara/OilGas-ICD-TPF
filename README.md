@@ -17,19 +17,23 @@ El problema es que medir la porosidad requiere perforaciones y estudios de subsu
 Analizar si existen **variables geológicas que permitan predecir la porosidad de un reservorio** sin necesidad de perforación. En caso afirmativo, identificar configuraciones geológicas asociadas a reservorios de mayor o menor calidad, a partir de un modelo de regresión lineal, optimizando así la toma de decisiones en etapas tempranas del proceso exploratorio.
 
 ## 📊 Resultados principales
+- 
+- 
+- 
 
 ## 📁 Estructura del proyecto
 ```
-OilGas-ICD-TPF
-├── LICENSE
-├── README.md
-├── data
+OilGas-ICD-TPF/
+├── data/                       # Datasets utilizados
 │   ├── oil_test.csv
 │   └── train_oil.csv
-├── output
-├── script.R
-└── slides
-    └── presentacion_TPF.pdf
+├── images/                     # Gráficos y visualizaciones
+├── slides/
+│   └── presentacion_TPF.pdf    # Apoyo visual para exposición en clase
+├── script.R                    # Código fuente del análisis realizado
+├── informe.Rmd                 # Informe detallado del análisis realizado
+├── README.md
+└── LICENSE  
 ```
 
 ## 📩 Datos utilizados
@@ -56,12 +60,17 @@ Fuente: https://www.kaggle.com/competitions/oilgas-field-prediction/data
 
 5. **Evaluación del modelo**: se validaron supuestos del modelo y se analizaron los residuos para asegurar un buen ajuste.
 
+📝 Los detalles técnicos de cada etapa se encuentran documentados en el siguiente notebook: [Informe Metodológico](informe.Rmd) (en construcción)
+
 ## 🧠 Conclusiones y Aprendizajes
+- 
+- 
+- 
 
 ## 🧑‍💻 Autores | Contacto
-Estamos abiertos a recibir ideas, sugerencias o comentarios! Podes contactarnos por GitHub o LinkedIn.
-- **Bruno Inguanzo** · [GitHub](https://github.com/BrunoInz) · [LinkedIn](https://www.linkedin.com/in/bruno-inguanzo-974021212/)
-- **Emanuel Pinasco** · [GitHub](https://github.com/manupinasco) · [LinkedIn](https://www.linkedin.com/in/emanuel-pinasco/) 
-- **Javier Valdez** · [GitHub](https://github.com/javivaldez49) · [LinkedIn](https://www.linkedin.com/in/javiervaldez2/) 
-- **Matías Vergara** · [GitHub](https://github.com/matvergara) · [LinkedIn](https://www.linkedin.com/in/matiasvergaravicencio/)
+Estamos abiertos a recibir ideas, sugerencias o comentarios! Podes contactarnos por LinkedIn o Gmail.
+- [**Bruno Inguanzo**](https://github.com/BrunoInz) · [LinkedIn](https://www.linkedin.com/in/bruno-inguanzo-974021212/) · [brunoinguanzo14@gmail.com](mailto:brunoinguanzo14@gmail.com)
+- [**Emanuel Pinasco**](https://github.com/manupinasco) · [LinkedIn](https://www.linkedin.com/in/emanuel-pinasco/) · [pinascoemanuel@gmail.com](mailto:pinascoemanuel@gmail.com) 
+- [**Javier Valdez**](https://github.com/javivaldez49) · [LinkedIn](https://www.linkedin.com/in/javiervaldez2/) · [javiervaldez145@gmail.com](mailto:javiervaldez145@gmail.com) 
+- [**Matías Vergara**](https://github.com/matvergara) · [LinkedIn](https://www.linkedin.com/in/matiasvergaravicencio/) · [hola.matiasv@gmail.com](mailto:hola.matiasv@gmail.com)
 
