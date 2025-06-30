@@ -471,7 +471,7 @@ df %>%
     strip.background= element_rect(fill = "gray90", color = NA)
   )
 
-  # ============================================================
+# ============================================================
 # MODELADO DE REGRESIÓN LINEAL MÚLTIPLE
 # ============================================================
 
@@ -661,5 +661,3 @@ ggplot() +
     plot.background  = element_rect(fill = "#e6f1fa", colour = NA),
     panel.background = element_rect(fill = "transparent", colour = NA)
   )
-
-ggsave("mapa_yacimientos_transp.png", width = 16, height = 9, units = "in", dpi = 300, bg = "transparent")
