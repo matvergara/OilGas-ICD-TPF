@@ -6,14 +6,17 @@ Análisis exploratorio y modelado predictivo sobre datos de yacimientos hidrocar
 
 ## 📚 Contexto
 
-La extracción de hidrocarburos enfrenta un escenario cada vez más exigente: yacimientos maduros, variabilidad geológica y presión por mejorar la eficiencia. En este entorno, entender qué pozos pueden aportar mayor valor deja de ser un ejercicio técnico y se vuelve una necesidad estratégica. Este proyecto aborda ese desafío mediante el análisis de reservorios para destacar aquellos con **mejores condiciones productivas**.
+La extracción de hidrocarburos enfrenta un escenario cada vez más exigente: yacimientos maduros, variabilidad geológica y presión por mejorar la eficiencia. En este entorno, entender qué pozos pueden aportar mayor valor deja de ser un ejercicio técnico y se vuelve una necesidad estratégica. 
+Este proyecto aborda ese desafío mediante el análisis de reservorios para destacar aquellos con **mejores condiciones productivas**.
 
 ## 🎯 Descripción del Problema
 La calidad de un reservorio está determinada, en gran parte, por la porosidad de sus rocas (proporción de espacios vacíos donde puede almacenarse el hidrocarburo) expresado como porcentaje de las mismas.
+
 El problema es que medir la porosidad requiere perforaciones y estudios de subsuelo que representan cerca del **40% del costo total de exploración**. Esto vuelve ineficiente el proceso, ya que implica incurrir en altos costos sin certezas previas, dificultando así la optimización del modelo de negocio.
 
 ## 💡 Solución propuesta
 Se buscó **predecir la porosidad de un reservorio** a partir de variables geológicas disponibles antes de perforar, como la litología, la profundidad o el espesor. Para ello, se construyó un modelo de regresión lineal que permite estimar esta propiedad clave sin incurrir en los elevados costos de exploración directa.
+
 Esta estrategia reduce el riesgo económico y técnico asociado a la perforación de pozos con baja calidad de reservorio, optimizando así la toma de decisiones en etapas tempranas del proceso exploratorio.
 
 ## 📊 Resultados principales
