@@ -71,7 +71,7 @@ Fuente: https://www.kaggle.com/competitions/oilgas-field-prediction/data
     - de <b>*menor espesor bruto*</b> y ubicados a <b>*poca profundidad*</b>.
     - formados en <b>*períodos geológicos más recientes*</b>, en lugar de aquellos más antiguos.
 
-- Incorporar más variables puede complejizar la interpretación sin mejorar sustancialmente la explicación del fenómeno.
+- Incorporar más variables al modelo puede complejizar la interpretación sin mejorar sustancialmente la explicación del fenómeno.
 - El desequilibrio en algunas categorías limitó el análisis de ciertos efectos; trabajar con datos más balanceados podría mejorar la robustez de los resultados.
 - Incluir nuevas variables como presión, temperatura o facies podría capturar aspectos clave no observados en este análisis
 
